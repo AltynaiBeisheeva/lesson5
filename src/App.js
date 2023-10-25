@@ -26,7 +26,7 @@
 
 import React, { useState } from 'react';
 
-function PrototypeFormComponent() {
+export default function Form(){
     const FormData = {
         key1: 'Barbara',
         key2: 'Hepworth',
@@ -77,4 +77,4 @@ function PrototypeFormComponent() {
     );
 }
 
-export default PrototypeFormComponent;
+
